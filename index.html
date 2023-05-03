@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header class="header container">
+      <figure class="brand-logo">
+          <img src="./assets/images/logo.svg" alt="brand-logo">
+      </figure>
+      <!-- navigation-item-start -->
+      <label for="toggle-menu" class="open-icon"><img src="./assets/images/icon-menu.svg" alt="menu icon"></label>
+      <input type="checkbox" id="toggle-menu">
+      <nav class="navbar">
+          <label for="toggle-menu" class="close-icon"><img src="./assets/images/icon-menu-close.svg" alt="menu icon"></label>
+          <ul class="nav-items">
+              <li class="item">
+                  <a href="#">Home</a>
+              </li>
+              <li class="item">
+                  <a href="#">New</a>
+              </li>
+              <li class="item">
+                  <a href="#">Popular</a>
+              </li>
+              <li class="item">
+                  <a href="#">Trending</a>
+              </li>
+              <li class="item">
+                  <a href="#">Categories</a>
+              </li>
+          </ul>
+      </nav>
+      <div class="overlay">
+          
+      </div>
+      <!-- navigation-item-end -->
+  </header>
+  <main>
+      <div class="container">
+          <article class="main">
+              <div class="grid-item banner">
+                  <figure>
+                      <img src="./assets/images/image-web-3-desktop.jpg" alt="banner image" class="banner-image">
+                  </figure>
+              </div>
+              <div class="grid-item news-headings">
+                  <h2 class="new">New</h2>
+                  <div class="news-list">
+                      <h6 class="news-title">Hydrogen VS Electric Cars</h6>
+                      <p class="news-question">Will hydrogen-fueled cars ever catch up to EVs?</p>
+                  </div>
+                  <div class="news-list">
+                      <h6 class="news-title">The Downsides of AI Artistry</h6>
+                      <p class="news-question">What are the possible adverse effects of on-demand AI image generation?
+                      </p>
+                  </div>
+                  <div class="news-list">
+                      <h6 class="news-title">Is VC Funding Drying Up?</h6>
+                      <p class="news-question">Private funding by VC firms is down 50% YOY. We take a look at what
+                          that means.</p>
+                  </div>
+              </div>
+              <div class="grid-item headline-articales-title">
+                  <h2 class="headline">
+                      The Bright Future of Web 3.0?
+                  </h2>
+              </div>
+              <div class="grid-item headline-articales-details">
+                  <p class="text-artical">
+                      We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                      But is it really fulfilling its promise?
+                  </p>
+                  <button type="button" class="read-more-btn">Read more</button>
+              </div>
+          </article>
+      </div>
+      <div class="news-card container">
+          <div class="card-wapper">
+              <figure class="card-image">
+                  <img src="./assets/images/image-retro-pcs.jpg" class="card-image" alt="Image of laptop">
+              </figure>
+              <div class="card-content">
+                  <h3 class="count">01</h3>
+                  <h4 class="card-title">Reviving Retro PCs</h4>
+                  <p class="card-details">
+                      What happens when old PCs are given modern upgrades?
+                  </p>
+              </div>
+          </div>
+          <div class="card-wapper">
+              <figure class="card-image">
+                  <img src="./assets/images/image-top-laptops.jpg" class="card-image" alt="Image of laptop">
+              </figure>
+              <div class="card-content">
+                  <h3 class="count">02</h3>
+                  <h4 class="card-title">Top 10 Laptops of 2022</h4>
+                  <p class="card-details">
+                      Our best picks for various needs and budgets.
+                  </p>
+              </div>
+          </div>
+          <div class="card-wapper">
+              <figure class="card-image">
+                  <img src="./assets/images/image-gaming-growth.jpg" class="card-image" alt="Image of laptop">
+              </figure>
+              <div class="card-content">
+                  <h3 class="count">03</h3>
+                  <h4 class="card-title">The Growth of Gaming</h4>
+                  <p class="card-details">
+                      How the pandemic has sparked fresh opportunities.
+                  </p>
+              </div>
+          </div>
+      </div>
+  </main>
+</body>
+</html>
